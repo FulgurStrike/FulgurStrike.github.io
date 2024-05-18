@@ -137,6 +137,15 @@ header h2{
     border-radius: 15px;
 }
 
+.github {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.github:visited{
+    color: rgb(79, 1, 110);
+}
+
 @media screen and (max-width: 1655px) {
     .main {
         display: block;

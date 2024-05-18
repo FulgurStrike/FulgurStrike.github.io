@@ -125,6 +125,7 @@ header h2{
 
 .main-information li {
     display: block;
+    width: 95%;
 }
 
 .main-information img {

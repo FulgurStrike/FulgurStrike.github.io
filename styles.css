@@ -159,3 +159,8 @@ header h2{
         margin-bottom: 3%;
     }
 }
+
+@media screen and (max-height: 1100px) {
+    .child {
+        display: flex;
+    }

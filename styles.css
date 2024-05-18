@@ -1,0 +1,51 @@
+html{
+    background-color: rgb(47, 48, 49);
+}
+
+header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+body {
+    height: 1000px;
+}
+
+.main-body{
+    height: 95%;
+}
+
+header h1{
+    text-decoration: underline;
+    color: aliceblue;
+}
+
+header h2{
+    color: rgb(92, 96, 100);
+}
+
+.sort-bar{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 5px;
+    margin-bottom: 2%;
+    height: 50px;
+    width: 65%;
+}
+
+.main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    height: 85%;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(4, 25%);
+    gap: 1%;
+    justify-content: center;
+}
+
+.child{
+    border: solid black 5px;
+}

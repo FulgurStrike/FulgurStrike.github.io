@@ -41,11 +41,27 @@ header h2{
     height: 85%;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(4, 25%);
+    grid-template-rows: repeat(4, 30%);
     gap: 1%;
     justify-content: center;
 }
 
 .child{
     border: solid black 5px;
+}
+
+.child-title{
+    display: block;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.child img {
+    width: 45%;
+    height: 45%;
+    border-radius: 15px;
+}
+
+.child p {
+    margin-bottom: 2%;
 }

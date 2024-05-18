@@ -1,17 +1,21 @@
-html{
-    background-image: linear-gradient(rgb(48, 46, 46), blue);
-    background-repeat: no-repeat;
+html {
     height: 100%;
 }
 
+@font-face {
+    font-family: myFont;
+    src: url(fonts/MonaspaceKrypton-Light.otf);
+}
 header{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myFont;
     
 }
 
 body {
-    height: 1000px;
+    background-color: rgb(0, 0, 71);
+    background-repeat: no-repeat;
+    height: 100%;
 }
 
 .main-body{
@@ -42,7 +46,7 @@ header h2{
     color: aliceblue;
     background-color: rgb(41, 40, 40);
     border-radius: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myFont;
     padding: 10px;
     margin-right: 3%;
     height: fit-content;
@@ -61,7 +65,7 @@ header h2{
     height: 85%;
     display: grid;
     grid-template-columns: repeat(2, 35%);
-    grid-template-rows: repeat(4, 30%);
+    grid-template-rows: repeat(4, 25%);
     gap: 1%;
     justify-content: center;
 }
@@ -71,6 +75,7 @@ header h2{
     text-align: center;
     background-color: rgb(41, 40, 40);
     transition: transform .2s;
+    text-decoration: none;
 }
 
 .child:hover {
@@ -93,7 +98,43 @@ header h2{
 .child p {
     margin-bottom: 2%;
     color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: myFont;
+}
+
+.main-information{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: fit-content;
+    border-radius: 15px;
+    background-color: rgb(41, 40, 40);
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.main-information h3 {
+    margin-top: 10px;
+    font-family: myFont;
+    color: aliceblue;
+}
+
+.main-information p{
+    color: aliceblue;
+    font-family: myFont;
+}
+
+.main-information li {
+    display: block;
+}
+
+.main-information img {
+    border-radius: 15px;
+}
+
+.highlight {
+    background-color: rgb(1, 1, 36);
+    padding: 10px;
+    border-radius: 15px;
 }
 
 @media screen and (max-width: 1655px) {

@@ -166,4 +166,21 @@ header h2{
         transition: transform .2s;
         text-decoration: none;
     }
+
+    .main-information{
+        width: 95%;
+    }
+
+    .main-information img {
+        width: 95%;
+    }
+
+    .main-information li {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+
+    .main-information li p {
+        margin-bottom: 10px;
+    }
 }

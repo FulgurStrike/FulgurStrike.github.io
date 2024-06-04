@@ -65,7 +65,7 @@ header h2{
     height: 85%;
     display: grid;
     grid-template-columns: repeat(2, 35%);
-    grid-template-rows: repeat(4, 25%);
+    grid-template-rows: repeat(4, 1fr);
     gap: 1%;
     justify-content: center;
 }

@@ -80,7 +80,7 @@ header h2{
 }
 
 .child:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 10px 15px 7px rgb(26, 25, 25);
 }
 
